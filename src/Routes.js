@@ -1,8 +1,12 @@
-import React, { Component } from 'react';
-import { renderIntoDocument } from 'react-dom/test-utils';
-import {BroweserRouter} from 'react-router-dom'
+import React, { Component } from "react";
+
+import Layout from "./hoc/Layout";
 function Routes() {
-  return <div className="App">hello</div>;
+  return (
+    <div className="App">
+      <Layout>second line</Layout>
+    </div>
+  );
 }
 
 export default Routes;
