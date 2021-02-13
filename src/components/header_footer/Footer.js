@@ -7,7 +7,7 @@ const Footer = () => {
         <CityLogo width="70px" height="70px" link={true} linkTo="/" />
       </div>
       <div className="footer_discl">
-        Manchestor City 2021. All rights reserved!
+        Manchester City 2021. All rights reserved!
       </div>
     </footer>
   );

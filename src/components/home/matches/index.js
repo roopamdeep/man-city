@@ -11,6 +11,7 @@ class MatchesHome extends Component {
           <Tag bck="#0e1731" size="50px" color="#ffffff">
             Matches
           </Tag>
+          <Blocks />
           <Tag
             bck="#ffffff"
             size="22px"
