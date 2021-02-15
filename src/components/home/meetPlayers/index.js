@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import stripes from "../../../Resources/images/stripes.png";
 import { Tag } from "../../ui/misc";
-import reveal from "react-reveal/Reveal";
+import Reveal from "react-reveal/Reveal";
 import HomeCards from "./cards";
 class MeetPlayers extends Component {
   state = { show: false };
